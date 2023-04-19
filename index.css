@@ -1,0 +1,39 @@
+* {
+	margin:0; 
+    padding:0;
+}
+ 
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+} 
+    
+nav ul {
+	background:#fff3a8;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li:hover{
+    background: rgb(245, 37, 193);
+}
+
+nav ul li:hover a{
+    color:#ffffff;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: rgb(251, 205, 243);
+    text-decoration: none;
+}
